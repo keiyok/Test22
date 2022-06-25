@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>電卓</title>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="calculator1.css">
+</head>
+ 
+<body>
+ <div id ="display">0</div>
+ <button class="btn" onclick="clickbutton(this)">7</button><button class="btn" onclick="clickbutton(this)">8</button><button class="btn" onclick="clickbutton(this)">9</button><button class="btn" onclick="edit(this)">+</button><br>
+ <button class="btn" onclick="clickbutton(this)">4</button><button class="btn" onclick="clickbutton(this)">5</button><button class="btn" onclick="clickbutton(this)">6</button><button class="btn" onclick="edit(this)">-</button><br>
+ <button class="btn" onclick="clickbutton(this)">1</button><button class="btn" onclick="clickbutton(this)">2</button><button class="btn" onclick="clickbutton(this)">3</button><button class="btn" onclick="edit(this)">*</button><br>
+ <button class="btn" onclick="clickbutton00(this)">0</button><button class="btn" onclick="clickbutton00(this)">00</button><button class="btn" onclick="edit(this)">.</button><button class="btn" onclick="edit(this)">/</button><br>
+ <button class="long-button" onclick="reset(this)">AC</button><button class="long-button" onclick="equal(this)">=</button>
+ <script src="calculator1.js"></script>
+</body>
+</html>
